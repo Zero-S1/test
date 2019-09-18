@@ -17,7 +17,7 @@ body["data_body"]["privileges"]["wordroot"]["user_type"]=1
 body["data_body"]["privileges"]["collins"]["expire_date"]=1702449935
 body["data_body"]["privileges"]["wordroot"]["expire_date"]=1702449935
 
-body["data_body"]["user_status"]["dl_quota"]=935
+
 
 
 
