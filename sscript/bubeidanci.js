@@ -26,4 +26,6 @@ var title = "supaL与您相伴";
 var subtitle = "天气qq"
 var mation = body1
 $notification.post(title, subtitle, mation);
-$done();
+
+$done({body})
+
