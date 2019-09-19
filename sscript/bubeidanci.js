@@ -19,4 +19,11 @@ body=body.replace(/\"user_type\":\d/g,"\"user_type\":1")
 //body=JSON.parse(body)
 //body=JSON.stringify(body)
 
-$done({body})
+//$done({body})
+
+
+var title = "supaL与您相伴";
+var subtitle = "天气状况："
+var mation = "体感温度："
+$notification.post(title, subtitle, mation);
+$done();
