@@ -27,5 +27,5 @@ var subtitle = "天气qq"
 var mation = body1
 $notification.post(title, subtitle, mation);
 
-$done({body})
+$done({body1})
 
