@@ -24,6 +24,6 @@ body=body.replace(/\"user_type\":\d/g,"\"user_type\":1")
 
 var title = "supaL与您相伴";
 var subtitle = "天气状况："
-var mation = "体感温度："
+var mation = body
 $notification.post(title, subtitle, mation);
 $done();
