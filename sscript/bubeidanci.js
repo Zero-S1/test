@@ -24,7 +24,7 @@ body1=body1.replace(/"user_type\\\":\d/g,"user_type\\\":1")
 
 
 var title = "supaL与您相伴";
-var subtitle = "天气qq"
+var subtitle = "qq"
 var mation = ff
 $notification.post(title, subtitle, mation);
 
