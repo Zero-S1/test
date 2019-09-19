@@ -24,8 +24,8 @@ body1=body1.replace(/"user_type\":\d/g,"user_type\":1")
 
 
 var title = "supaL与您相伴";
-var subtitle = "qq1"
-var mation = ff
+var subtitle = ff
+var mation = body1
 $notification.post(title, subtitle, mation);
 
 $done({body1})
