@@ -23,7 +23,7 @@ body1=body1.replace(/"user_type\":\d/g,"user_type\":1")
 //$done({body})
 
 
-var title = "supaL与您相伴";
+var title = $response.url;
 var subtitle = ff
 var mation = body1
 $notification.post(title, subtitle, mation);
