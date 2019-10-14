@@ -3,7 +3,7 @@ let body = $response.body
 body=JSON.parse(body)
 
 
-body['data'].forEarch((element, index)=> {
+body['data'].forEach((element, index)=> {
     //block ad||title||up
    if(element.hasOwnProperty('ad')){
          body['data'].splice(index,1)  
