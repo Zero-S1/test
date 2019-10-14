@@ -5,7 +5,7 @@ body=JSON.parse(body)
 
 body['data'].forEarch((element, index)=> {
     //block ad||title||up
-   if(element.hasOwnProperty('ad'){
+   if(element.hasOwnProperty('ad')){
          body['data'].splice(index,1)  
     }
 })
@@ -16,6 +16,12 @@ body['data']['items'].forEach((element, index)=> {
          body['data']['items'].splice(index,1)  
     }
 })
+
+body['data']['relates'].forEach((element, index)=> {
+   if(element.hasOwnProperty('is_ad')){      
+      body['data']['relates'].splice(index,1)  
+    }
+});
 */
 
 body=JSON.stringify(body)
