@@ -5,7 +5,7 @@ body=JSON.parse(body)
 
 body['data'].forEarch((element, index)=> {
     //block ad||title||up
-   if(element.type=="feed_advert"){
+   if(element['type']=="feed_advert"){
          body['data'].splice(index,1)  
     }
 })
