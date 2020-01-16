@@ -1,6 +1,6 @@
-# feed流广告
-# https:\/\/api\.zhihu\.com\/feeds\?action_feed=true url script-response-body https://raw.githubusercontent.com/haiBosuPal/test/master/sscript/zhihu_feed.js
-# http-response https:\/\/api\.zhihu\.com\/feeds\?action_feed=true requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/haiBosuPal/test/master/sscript/zhihu_feed.js,script-update-interval=0
+// feed流广告
+// https:\/\/api\.zhihu\.com\/feeds\?action_feed=true url script-response-body https://raw.githubusercontent.com/haiBosuPal/test/master/sscript/zhihu_feed.js
+// http-response https:\/\/api\.zhihu\.com\/feeds\?action_feed=true requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/haiBosuPal/test/master/sscript/zhihu_feed.js,script-update-interval=0
 let body = $response.body
 body=JSON.parse(body)
 
